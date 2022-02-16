@@ -24779,11 +24779,10 @@ function Season({ name  }) {
     return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
         className: "Season-root",
         children: [
-            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                role: "img",
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                src: season.icon,
                 "aria-label": name,
-                className: "Season-icon",
-                children: season.icon
+                className: "Season-icon"
             }, void 0, false, {
                 fileName: "src/Season.js",
                 lineNumber: 19,
@@ -24794,7 +24793,7 @@ function Season({ name  }) {
                 children: season.name
             }, void 0, false, {
                 fileName: "src/Season.js",
-                lineNumber: 22,
+                lineNumber: 20,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
@@ -24802,7 +24801,7 @@ function Season({ name  }) {
                 children: distance
             }, void 0, false, {
                 fileName: "src/Season.js",
-                lineNumber: 23,
+                lineNumber: 21,
                 columnNumber: 7
             }, this)
         ]
@@ -24823,7 +24822,7 @@ $RefreshReg$(_c, "Season");
   window.$RefreshSig$ = prevRefreshSig;
 }
 },{"react/jsx-dev-runtime":"iTorj","date-fns":"9yHCA","./Season.css":"bWfqu","./data.json":"aLYkf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bWfqu":[function() {},{}],"aLYkf":[function(require,module,exports) {
-module.exports = JSON.parse("{\"seasons\":{\"summer\":{\"name\":\"Summer\",\"icon\":\"☀️\",\"next\":\"autumn\",\"beginAt\":{\"month\":6,\"day\":21},\"endAt\":{\"month\":9,\"day\":22}},\"autumn\":{\"name\":\"Autumn\",\"icon\":\"🍂\",\"next\":\"winter\",\"beginAt\":{\"month\":9,\"day\":23},\"endAt\":{\"month\":12,\"day\":20}},\"winter\":{\"name\":\"Winter\",\"icon\":\"❄️\",\"next\":\"spring\",\"beginAt\":{\"month\":12,\"day\":21},\"endAt\":{\"month\":3,\"day\":19}},\"spring\":{\"name\":\"Spring\",\"icon\":\"🌸\",\"next\":\"summer\",\"beginAt\":{\"month\":3,\"day\":20},\"endAt\":{\"month\":6,\"day\":20}}}}");
+module.exports = JSON.parse("{\"seasons\":{\"summer\":{\"name\":\"Summer\",\"icon\":\"https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80\",\"next\":\"autumn\",\"beginAt\":{\"month\":6,\"day\":21},\"endAt\":{\"month\":9,\"day\":22}},\"autumn\":{\"name\":\"Autumn\",\"icon\":\"https://images.unsplash.com/photo-1545091154-6d858a9e1d70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80\",\"next\":\"winter\",\"beginAt\":{\"month\":9,\"day\":23},\"endAt\":{\"month\":12,\"day\":20}},\"winter\":{\"name\":\"Winter\",\"icon\":\"https://images.unsplash.com/photo-1489674267075-cee793167910?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80\",\"next\":\"spring\",\"beginAt\":{\"month\":12,\"day\":21},\"endAt\":{\"month\":3,\"day\":19}},\"spring\":{\"name\":\"Spring\",\"icon\":\"https://images.unsplash.com/photo-1526344966-89049886b28d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80\",\"next\":\"summer\",\"beginAt\":{\"month\":3,\"day\":20},\"endAt\":{\"month\":6,\"day\":20}}}}");
 
 },{}],"km3Ru":[function(require,module,exports) {
 "use strict";

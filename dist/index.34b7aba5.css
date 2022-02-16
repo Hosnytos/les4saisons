@@ -5,6 +5,8 @@
   align-items: center;
   height: 100vh;
   font-family: system-ui;
+  background-image: url("https://i.pinimg.com/originals/95/58/b9/9558b95660d31cdbfb19167da2a707f4.gif");
+  background-size: cover;
 }
 
 .App-main {
@@ -12,6 +14,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 10%;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  width: 500px;
+  padding-bottom: 25px;
 }
 
 .App-content {
@@ -25,64 +31,69 @@
 }
 
 .Season-root {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Season-title {
-    margin: 0;
-  }
-  
-  .Season-subtitle {
-    margin: 0;
-  }
-  
-  .Season-content {
-    margin-top: 16px;
-  }
-  
-  .Season-icon {
-    font-size: 64px;
-    padding: 8px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Season-title {
+  margin: 0;
+}
+
+.Season-subtitle {
+  margin: 0;
+}
+
+.Season-content {
+  margin-top: 16px;
+}
+
+.Season-icon {
+  padding: 8px;
+  width: 500px;
+  margin-top: -16px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
 .Modal-root {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    padding: 16px;
-    background-color: white;
-    width: fit-content;
-    height: fit-content;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  }
-  
-  .Modal-content {
-    margin-top: 8px;
-    margin-bottom: 8px;
-  }
-  
-  .Modal-actions {
-    margin-top: 8px;
-    margin-bottom: 8px;
-  }
-  
-  .Modal-button {
-    border: none;
-    padding: 4px 8px;
-    font-weight: 700;
-    cursor: pointer;
-    background-color: black;
-    color: white;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0px 16px 25px;
+  background-color: white;
+  height: fit-content;
+  border-radius: 8%;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  width: 468px;
+  padding-bottom: 25px;
+}
+
+.Modal-content {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.Modal-actions {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.Modal-button {
+  border: none;
+  padding: 4px 8px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
 /*# sourceMappingURL=index.34b7aba5.css.map */

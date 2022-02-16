@@ -558,11 +558,10 @@ function NextSeason({ name  }) {
     return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
         className: "Season-root",
         children: [
-            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                role: "img",
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                src: season.icon,
                 "aria-label": name,
-                className: "Season-icon",
-                children: season.icon
+                className: "Season-icon"
             }, void 0, false, {
                 fileName: "src/NextSeason.js",
                 lineNumber: 24,
@@ -573,7 +572,7 @@ function NextSeason({ name  }) {
                 children: season.name
             }, void 0, false, {
                 fileName: "src/NextSeason.js",
-                lineNumber: 27,
+                lineNumber: 25,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h6", {
@@ -581,7 +580,7 @@ function NextSeason({ name  }) {
                 children: duration
             }, void 0, false, {
                 fileName: "src/NextSeason.js",
-                lineNumber: 28,
+                lineNumber: 26,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
@@ -589,7 +588,7 @@ function NextSeason({ name  }) {
                 children: distance
             }, void 0, false, {
                 fileName: "src/NextSeason.js",
-                lineNumber: 29,
+                lineNumber: 27,
                 columnNumber: 7
             }, this)
         ]

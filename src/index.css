@@ -1,55 +1,55 @@
 body {
-    background-color: rgba(236, 241, 236, 1);
+  background-color: rgba(236, 241, 236, 1);
 }
 
 .root {
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .divButton {
-    margin: 0;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .button {
-    width: 200px;
-    height: 50px;
+  width: 200px;
+  height: 50px;
 }
 
 .seasonText {
-    margin: 0;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .divNextButton {
-    margin: 0;
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .seasonButton:hover {
-    background-color: #8ca823;
+  background-color: #8ca823;
 }
 
 .nextButton:hover {
-    background-color: #ff8795;
+  background-color: #ff8795;
 }
