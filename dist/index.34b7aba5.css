@@ -1,0 +1,88 @@
+.App-root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: system-ui;
+}
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-content {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.App-actions {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.Season-root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Season-title {
+    margin: 0;
+  }
+  
+  .Season-subtitle {
+    margin: 0;
+  }
+  
+  .Season-content {
+    margin-top: 16px;
+  }
+  
+  .Season-icon {
+    font-size: 64px;
+    padding: 8px;
+  }
+  
+.Modal-root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 16px;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .Modal-content {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .Modal-actions {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .Modal-button {
+    border: none;
+    padding: 4px 8px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }
+  
+/*# sourceMappingURL=index.34b7aba5.css.map */
