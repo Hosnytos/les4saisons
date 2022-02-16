@@ -21,9 +21,7 @@ function NextSeason({ name }) {
 
   return (
     <div className="Season-root">
-      <span role="img" aria-label={name} className="Season-icon">
-        {season.icon}
-      </span>
+      <img src={season.icon} aria-label={name} className="Season-icon"></img>
       <h1 className="Season-title">{season.name}</h1>
       <h6 className="Season-subtitle">{duration}</h6>
       <p className="Season-content">{distance}</p>

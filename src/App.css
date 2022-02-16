@@ -5,6 +5,8 @@
   align-items: center;
   height: 100vh;
   font-family: system-ui;
+  background-image: url('https://i.pinimg.com/originals/95/58/b9/9558b95660d31cdbfb19167da2a707f4.gif');
+  background-size: cover;
 }
 
 .App-main {
@@ -12,6 +14,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 10%;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  width: 500px;
+  padding-bottom: 25px;
 }
 
 .App-content {

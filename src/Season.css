@@ -18,7 +18,10 @@
   }
   
   .Season-icon {
-    font-size: 64px;
     padding: 8px;
+    width: 500px;
+    margin-top: -16px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   }
   

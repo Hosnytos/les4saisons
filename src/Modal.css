@@ -9,11 +9,13 @@
     left: 0;
     bottom: 0;
     right: 0;
-    padding: 16px;
+    padding: 0px 16px 25px;
     background-color: white;
-    width: fit-content;
     height: fit-content;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8%;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    width: 468px;
+    padding-bottom: 25px;
   }
   
   .Modal-content {
