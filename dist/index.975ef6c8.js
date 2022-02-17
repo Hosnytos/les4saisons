@@ -24765,6 +24765,8 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
 var _dateFns = require("date-fns");
 var _seasonCss = require("./Season.css");
 var _dataJson = require("./data.json");
@@ -24785,7 +24787,7 @@ function Season({ name  }) {
                 className: "Season-icon"
             }, void 0, false, {
                 fileName: "src/Season.js",
-                lineNumber: 19,
+                lineNumber: 20,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
@@ -24793,7 +24795,7 @@ function Season({ name  }) {
                 children: season.name
             }, void 0, false, {
                 fileName: "src/Season.js",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
@@ -24801,13 +24803,13 @@ function Season({ name  }) {
                 children: distance
             }, void 0, false, {
                 fileName: "src/Season.js",
-                lineNumber: 21,
+                lineNumber: 22,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/Season.js",
-        lineNumber: 18,
+        lineNumber: 19,
         columnNumber: 5
     }, this));
 }
@@ -24821,7 +24823,7 @@ $RefreshReg$(_c, "Season");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","date-fns":"9yHCA","./Season.css":"bWfqu","./data.json":"aLYkf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bWfqu":[function() {},{}],"aLYkf":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","date-fns":"9yHCA","./Season.css":"bWfqu","./data.json":"aLYkf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}],"bWfqu":[function() {},{}],"aLYkf":[function(require,module,exports) {
 module.exports = JSON.parse("{\"seasons\":{\"summer\":{\"name\":\"Summer\",\"icon\":\"https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80\",\"next\":\"autumn\",\"beginAt\":{\"month\":6,\"day\":21},\"endAt\":{\"month\":9,\"day\":22}},\"autumn\":{\"name\":\"Autumn\",\"icon\":\"https://images.unsplash.com/photo-1545091154-6d858a9e1d70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80\",\"next\":\"winter\",\"beginAt\":{\"month\":9,\"day\":23},\"endAt\":{\"month\":12,\"day\":20}},\"winter\":{\"name\":\"Winter\",\"icon\":\"https://images.unsplash.com/photo-1489674267075-cee793167910?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80\",\"next\":\"spring\",\"beginAt\":{\"month\":12,\"day\":21},\"endAt\":{\"month\":3,\"day\":19}},\"spring\":{\"name\":\"Spring\",\"icon\":\"https://images.unsplash.com/photo-1526344966-89049886b28d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80\",\"next\":\"summer\",\"beginAt\":{\"month\":3,\"day\":20},\"endAt\":{\"month\":6,\"day\":20}}}}");
 
 },{}],"km3Ru":[function(require,module,exports) {
@@ -24956,8 +24958,6 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _modalCss = require("./Modal.css");
-var _season = require("./Season");
-var _seasonDefault = parcelHelpers.interopDefault(_season);
 var _s = $RefreshSig$();
 function Modal({ label , children  }) {
     _s();
@@ -24970,7 +24970,7 @@ function Modal({ label , children  }) {
         children: label
     }, void 0, false, {
         fileName: "src/Modal.js",
-        lineNumber: 11,
+        lineNumber: 10,
         columnNumber: 7
     }, this));
     return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -24981,7 +24981,7 @@ function Modal({ label , children  }) {
                 children: children
             }, void 0, false, {
                 fileName: "src/Modal.js",
-                lineNumber: 17,
+                lineNumber: 16,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -24992,18 +24992,18 @@ function Modal({ label , children  }) {
                     children: "OK, je vais \xeatre patient..."
                 }, void 0, false, {
                     fileName: "src/Modal.js",
-                    lineNumber: 19,
+                    lineNumber: 18,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "src/Modal.js",
-                lineNumber: 18,
+                lineNumber: 17,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/Modal.js",
-        lineNumber: 16,
+        lineNumber: 15,
         columnNumber: 5
     }, this));
 }
@@ -25018,7 +25018,7 @@ $RefreshReg$(_c, "Modal");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Modal.css":"4K4lC","./Season":"9AYwt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4K4lC":[function() {},{}],"1XzqH":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Modal.css":"4K4lC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4K4lC":[function() {},{}],"1XzqH":[function(require,module,exports) {
 module.exports = require("./helpers/browser/js-loader")(require('./helpers/bundle-url').getBundleURL('bLxZJ') + "NextSeason.3a6e5fbb.js" + "?" + Date.now()).catch((err)=>{
     delete module.bundle.cache[module.id];
     throw err;
