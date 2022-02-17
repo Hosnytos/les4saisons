@@ -154,7 +154,7 @@ window.$RefreshSig$ = function() {
 };
 
 },{"react-refresh/runtime":"786KC"}],"hoHBZ":[function(require,module,exports) {
-"use strict";
+
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;

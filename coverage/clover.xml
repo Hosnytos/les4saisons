@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1645072415574" clover="3.2.0">
+  <project timestamp="1645072415574" name="All files">
+    <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3" elements="16" coveredelements="15" complexity="0" loc="9" ncloc="9" packages="1" files="2" classes="2"/>
+    <file name="Modal.js" path="C:\Users\hosny\Downloads\M1\Electives\React\les4saisons\src\Modal.js">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <line num="7" count="13" type="stmt"/>
+      <line num="8" count="13" type="stmt"/>
+      <line num="9" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="8" type="stmt"/>
+      <line num="15" count="5" type="stmt"/>
+    </file>
+    <file name="Season.js" path="C:\Users\hosny\Downloads\M1\Electives\React\les4saisons\src\Season.js">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="9" count="3" type="stmt"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="18" count="3" type="stmt"/>
+    </file>
+  </project>
+</coverage>

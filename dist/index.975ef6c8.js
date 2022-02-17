@@ -154,7 +154,7 @@ window.$RefreshSig$ = function() {
 };
 
 },{"react-refresh/runtime":"786KC"}],"786KC":[function(require,module,exports) {
-'use strict';
+
 module.exports = require('./cjs/react-refresh-runtime.development.js');
 
 },{"./cjs/react-refresh-runtime.development.js":"hdge7"}],"hdge7":[function(require,module,exports) {
@@ -165,7 +165,7 @@ module.exports = require('./cjs/react-refresh-runtime.development.js');
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ 'use strict';
+ */ 
 (function() {
     // ATTENTION
     // When adding new symbols to this file,
@@ -621,7 +621,7 @@ module.exports = require('./cjs/react-refresh-runtime.development.js');
 })();
 
 },{}],"7nZVA":[function(require,module,exports) {
-"use strict";
+
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
@@ -1022,7 +1022,7 @@ _reactDomDefault.default.render(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_appDefault.
   window.$RefreshSig$ = prevRefreshSig;
 }
 },{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","./App":"2kQhy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
-'use strict';
+
 module.exports = require('./cjs/react-jsx-dev-runtime.development.js');
 
 },{"./cjs/react-jsx-dev-runtime.development.js":"48uCM"}],"48uCM":[function(require,module,exports) {
@@ -1033,7 +1033,7 @@ module.exports = require('./cjs/react-jsx-dev-runtime.development.js');
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ 'use strict';
+ */ 
 (function() {
     var React = require('react');
     var _assign = require('object-assign');
@@ -1817,7 +1817,7 @@ module.exports = require('./cjs/react-jsx-dev-runtime.development.js');
 })();
 
 },{"react":"21dqq","object-assign":"7OXxh"}],"21dqq":[function(require,module,exports) {
-'use strict';
+
 module.exports = require('./cjs/react.development.js');
 
 },{"./cjs/react.development.js":"6YvXz"}],"6YvXz":[function(require,module,exports) {
@@ -1828,7 +1828,7 @@ module.exports = require('./cjs/react.development.js');
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ 'use strict';
+ */ 
 (function() {
     var _assign = require('object-assign');
     // TODO: this is special because it gets imported during build.
@@ -3424,7 +3424,7 @@ module.exports = require('./cjs/react.development.js');
 object-assign
 (c) Sindre Sorhus
 @license MIT
-*/ 'use strict';
+*/ 
 /* eslint-disable no-unused-vars */ var getOwnPropertySymbols = Object.getOwnPropertySymbols;
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 var propIsEnumerable = Object.prototype.propertyIsEnumerable;
@@ -3478,7 +3478,7 @@ module.exports = shouldUseNative() ? Object.assign : function(target, source) {
 };
 
 },{}],"j6uA9":[function(require,module,exports) {
-'use strict';
+
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === 'undefined' || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== 'function') return;
     var err;
@@ -3501,7 +3501,7 @@ module.exports = require('./cjs/react-dom.development.js');
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ 'use strict';
+ */ 
 (function() {
     var React = require('react');
     var _assign = require('object-assign');
@@ -22035,7 +22035,7 @@ module.exports = require('./cjs/react-dom.development.js');
 })();
 
 },{"react":"21dqq","object-assign":"7OXxh","scheduler":"juvHo","scheduler/tracing":"9ZY7A"}],"juvHo":[function(require,module,exports) {
-'use strict';
+
 module.exports = require('./cjs/scheduler.development.js');
 
 },{"./cjs/scheduler.development.js":"RqdIf"}],"RqdIf":[function(require,module,exports) {
@@ -22046,7 +22046,7 @@ module.exports = require('./cjs/scheduler.development.js');
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ 'use strict';
+ */ 
 (function() {
     var enableSchedulerDebugging = false;
     var enableProfiling = false;
@@ -22512,7 +22512,7 @@ module.exports = require('./cjs/scheduler.development.js');
 })();
 
 },{}],"9ZY7A":[function(require,module,exports) {
-'use strict';
+
 module.exports = require('./cjs/scheduler-tracing.development.js');
 
 },{"./cjs/scheduler-tracing.development.js":"dClkR"}],"dClkR":[function(require,module,exports) {
@@ -22523,7 +22523,7 @@ module.exports = require('./cjs/scheduler-tracing.development.js');
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ 'use strict';
+ */ 
 (function() {
     var DEFAULT_THREAD_ID = 0; // Counters used to generate unique IDs.
     var interactionIDCounter = 0;
@@ -24827,7 +24827,7 @@ $RefreshReg$(_c, "Season");
 module.exports = JSON.parse("{\"seasons\":{\"summer\":{\"name\":\"Summer\",\"icon\":\"https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80\",\"next\":\"autumn\",\"beginAt\":{\"month\":6,\"day\":21},\"endAt\":{\"month\":9,\"day\":22}},\"autumn\":{\"name\":\"Autumn\",\"icon\":\"https://images.unsplash.com/photo-1545091154-6d858a9e1d70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80\",\"next\":\"winter\",\"beginAt\":{\"month\":9,\"day\":23},\"endAt\":{\"month\":12,\"day\":20}},\"winter\":{\"name\":\"Winter\",\"icon\":\"https://images.unsplash.com/photo-1489674267075-cee793167910?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80\",\"next\":\"spring\",\"beginAt\":{\"month\":12,\"day\":21},\"endAt\":{\"month\":3,\"day\":19}},\"spring\":{\"name\":\"Spring\",\"icon\":\"https://images.unsplash.com/photo-1526344966-89049886b28d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80\",\"next\":\"summer\",\"beginAt\":{\"month\":3,\"day\":20},\"endAt\":{\"month\":6,\"day\":20}}}}");
 
 },{}],"km3Ru":[function(require,module,exports) {
-"use strict";
+
 var Refresh = require('react-refresh/runtime');
 function debounce(func, delay) {
     var args1;
@@ -24957,6 +24957,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
 var _modalCss = require("./Modal.css");
 var _s = $RefreshSig$();
 function Modal({ label , children  }) {
@@ -24970,7 +24971,7 @@ function Modal({ label , children  }) {
         children: label
     }, void 0, false, {
         fileName: "src/Modal.js",
-        lineNumber: 10,
+        lineNumber: 11,
         columnNumber: 7
     }, this));
     return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -24981,7 +24982,7 @@ function Modal({ label , children  }) {
                 children: children
             }, void 0, false, {
                 fileName: "src/Modal.js",
-                lineNumber: 16,
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -24992,18 +24993,18 @@ function Modal({ label , children  }) {
                     children: "OK, je vais \xeatre patient..."
                 }, void 0, false, {
                     fileName: "src/Modal.js",
-                    lineNumber: 18,
+                    lineNumber: 19,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "src/Modal.js",
-                lineNumber: 17,
+                lineNumber: 18,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/Modal.js",
-        lineNumber: 15,
+        lineNumber: 16,
         columnNumber: 5
     }, this));
 }
@@ -25026,7 +25027,7 @@ module.exports = require("./helpers/browser/js-loader")(require('./helpers/bundl
 );
 
 },{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"61B45":[function(require,module,exports) {
-"use strict";
+
 var cacheLoader = require('../cacheLoader');
 module.exports = cacheLoader(function(bundle) {
     return new Promise(function(resolve, reject) {
@@ -25058,7 +25059,7 @@ module.exports = cacheLoader(function(bundle) {
 });
 
 },{"../cacheLoader":"j49pS"}],"j49pS":[function(require,module,exports) {
-"use strict";
+
 var cachedBundles = {
 };
 var cachedPreloads = {
@@ -25087,7 +25088,7 @@ module.exports = function(loader, type) {
 };
 
 },{}],"lgJ39":[function(require,module,exports) {
-"use strict";
+
 var bundleURL = {
 };
 function getBundleURLCached(id) {
